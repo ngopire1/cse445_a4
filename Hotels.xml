@@ -4,7 +4,7 @@
     <Name>Westin</Name>
     <Phone>800-937-8461</Phone>
     <Phone>480-968-8885</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E.7th St</Street>
       <City>Tempe</City>
@@ -17,7 +17,7 @@
   <Hotel Rating="4.5">
     <Name>Marriott Phoenix Resort Tempe</Name>
     <Phone>480-894-1400</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>300</Number>
       <Street>S Mill Ave</Street>
       <City>Tempe</City>
@@ -42,7 +42,7 @@
   <Hotel Rating="4.7">
     <Name>Four Seasons Resort Scottsdale</Name>
     <Phone>480-515-5700</Phone>
-    <Address NearestAirport="Scottsdale Airport">
+    <Address NearstAirport="Scottsdale Airport">
       <Number>10600</Number>
       <Street>E Crescent Moon Dr</Street>
       <City>Scottsdale</City>
@@ -54,7 +54,7 @@
   <Hotel Rating="4.1">
     <Name>Renaissance Phoenix Downtown</Name>
     <Phone>602-333-0000</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>100</Number>
       <Street>N 1st St</Street>
       <City>Phoenix</City>
@@ -79,7 +79,7 @@
     <Name>Hampton Inn Phoenix-Biltmore</Name>
     <Phone>602-956-5221</Phone>
     <Phone>800-426-7866</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>2310</Number>
       <Street>E Highland Ave</Street>
       <City>Phoenix</City>
@@ -92,7 +92,7 @@
     <Name>The Phoenician</Name>
     <Phone>480-941-8200</Phone>
     <Phone>800-888-8234</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>6000</Number>
       <Street>E Camelback Rd</Street>
       <City>Scottsdale</City>
@@ -116,7 +116,7 @@
   <Hotel Rating="3.5">
     <Name>Quality Inn Phoenix Airport</Name>
     <Phone>480-967-3000</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>1550</Number>
       <Street>S 52nd St</Street>
       <City>Tempe</City>
