@@ -1,0 +1,141 @@
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <!-- Example hotel from the figure -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>800-937-8461</Phone>
+    <Phone>480-968-8885</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E.7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- ERROR 2: Required attribute Rating is missing -->
+  <Hotel>
+    <Name>Marriott Phoenix Resort Tempe</Name>
+    <Phone>480-894-1400</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>300</Number>
+      <Street>S Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.9">
+    <Name>Hyatt Place Phoenix/Mesa</Name>
+    <!-- ERROR 3: Phone element is missing on this hotel -->
+    <Address>
+      <Number>1422</Number>
+      <Street>W Bass Pro Dr</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.7">
+    <Name>Four Seasons Resort Scottsdale</Name>
+    <Phone>480-515-5700</Phone>
+    <!-- ERROR 4: Address element has no closing tag -->
+    <Address NearestAirport="Scottsdale Airport">
+      <Number>10600</Number>
+      <Street>E Crescent Moon Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85262</Zip>
+  </Hotel>
+
+  <Hotel Rating="4.1">
+    <!-- ERROR 5: Two names are provided for one hotel -->
+    <Name>Renaissance Phoenix Downtown</Name>
+    <Name>Renaissance Hotel Downtown</Name>
+    <Phone>602-333-0000</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>100</Number>
+      <Street>N 1st St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.3">
+    <Name>Courtyard Phoenix Chandler</Name>
+    <Phone>480-855-8600</Phone>
+    <Address>
+      <Number>1100</Number>
+      <Street>S Price Rd</Street>
+      <City>Chandler</City>
+      <State>AZ</State>
+      <Zip>85286</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.8">
+    <Name>Hampton Inn Phoenix-Biltmore</Name>
+    <Phone>602-956-5221</Phone>
+    <Phone>800-426-7866</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>2310</Number>
+      <Street>E Highland Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.8">
+    <Name>The Phoenician</Name>
+    <Phone>480-941-8200</Phone>
+    <Phone>800-888-8234</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>6000</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.0">
+    <Name>Sheraton Mesa Hotel at Wrigleyville West</Name>
+    <Phone>480-664-1221</Phone>
+    <Address>
+      <Number>860</Number>
+      <Street>N Riverview</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85201</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.5">
+    <Name>Quality Inn Phoenix Airport</Name>
+    <Phone>480-967-3000</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>1550</Number>
+      <Street>S 52nd St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="4.4">
+    <Name>Residence Inn Tempe Downtown</Name>
+    <Phone>480-967-2300</Phone>
+    <Address>
+      <Number>510</Number>
+      <Street>S Forest Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+</Hotel>
+
