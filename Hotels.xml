@@ -30,7 +30,7 @@
     <Name>Hyatt Place Phoenix/Mesa</Name>
     <Phone>480-969-8200</Phone>
     <Phone>800-993-4751</Phone>
-    <Address>
+    <Address NearstAirport="Sky Harbor">
       <Number>1422</Number>
       <Street>W Bass Pro Dr</Street>
       <City>Mesa</City>
@@ -66,7 +66,7 @@
   <Hotel Rating="4.3">
     <Name>Courtyard Phoenix Chandler</Name>
     <Phone>480-855-8600</Phone>
-    <Address>
+    <Address NearstAirport="Sky Harbor">
       <Number>1100</Number>
       <Street>S Price Rd</Street>
       <City>Chandler</City>
@@ -104,7 +104,7 @@
   <Hotel Rating="4.0">
     <Name>Sheraton Mesa Hotel at Wrigleyville West</Name>
     <Phone>480-664-1221</Phone>
-    <Address>
+    <Address NearstAirport="Sky Harbor">
       <Number>860</Number>
       <Street>N Riverview</Street>
       <City>Mesa</City>
@@ -128,7 +128,7 @@
   <Hotel Rating="4.4">
     <Name>Residence Inn Tempe Downtown</Name>
     <Phone>480-967-2300</Phone>
-    <Address>
+    <Address NearstAirport="Sky Harbor">
       <Number>510</Number>
       <Street>S Forest Ave</Street>
       <City>Tempe</City>
